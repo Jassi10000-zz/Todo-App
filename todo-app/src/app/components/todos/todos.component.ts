@@ -9,12 +9,12 @@ import {Todos} from './../../Models/Todos';
 export class TodosComponent implements OnInit {
 
   // so here we an empty array of Todos in todo
-  todo: Todos[];
+  todos: Todos[];
 
   constructor() { }
 
   ngOnInit(): void {
-    this.todo = [
+    this.todos = [
       {
         content: "This is the first todo",
         completed: false
