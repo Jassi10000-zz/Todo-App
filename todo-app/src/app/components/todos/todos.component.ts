@@ -16,11 +16,11 @@ export class TodosComponent implements OnInit {
   ngOnInit(): void {
     this.todos = [
       {
-        content: "This is the first todo",
+        content: "First todo",
         completed: false
       },
       {
-        content: "This is the second todo",
+        content: "Second todo",
         completed: true
       }
     ]
